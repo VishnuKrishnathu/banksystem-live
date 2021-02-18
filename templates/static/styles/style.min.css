@@ -1,0 +1,204 @@
+.main {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.main .customer {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  border: 3px solid #000;
+  margin: 15px 15px;
+  border-radius: 10%;
+}
+.profilepic {
+  height: 150px;
+  width: 150px;
+  cursor: pointer;
+  background-color: #3ba1b7;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 70pt;
+  text-decoration: none;
+  color: #000;
+}
+.customers-db {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (300px) [auto-fill];
+  grid-template-columns: repeat(auto-fill, 300px);
+}
+.details-page {
+  padding: 100px 13vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.details-page #scaledpic {
+  height: 20vw;
+  width: 20vw;
+  background-color: #3ba1b7;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 10em;
+}
+#details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-left: 8vw;
+  font-size: 1.3em;
+}
+#payamount {
+  font-size: 1.3em;
+}
+#submit-butt {
+  background-color: #3ba1b7;
+}
+form {
+  margin-left: 50vw;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+form #amount {
+  outline-style: none;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  border-bottom: 1px solid grey;
+  overflow: hidden;
+  font-size: 1.3em;
+}
+form #submit-butt {
+  padding: 5px 15px;
+  font-size: 1.1em;
+  margin-left: 10px;
+  border-radius: 999px;
+}
+#amount:focus {
+  border-bottom: 3px solid #3ba1b7;
+}
+.paymentcomplete {
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+#error {
+  font-size: 2em;
+  color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+* {
+  border: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 15pt;
+  padding: 5px 3vw;
+  cursor: pointer;
+  background: #3ba1b7;
+  font-weight: 700;
+  color: #fff;
+}
+#logo .icon {
+  margin-top: -13px;
+  padding-right: 3px;
+}
+.photos {
+  height: 80vh;
+  padding-bottom: 30px;
+  overflow: hidden;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.debit {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+}
+.debit h1 {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  font-size: 3em;
+  color: #fff;
+}
+a {
+  border: 3px solid #3ba1b7;
+  text-decoration: none;
+  color: #3ba1b7;
+  padding: 10px 10px;
+}
+.debit::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(/static/Images/debit-card.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -90px;
+  opacity: 0.5;
+}
