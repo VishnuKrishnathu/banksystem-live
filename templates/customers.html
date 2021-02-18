@@ -1,0 +1,17 @@
+{% extends 'index.html'%} {% block content %}
+<div class="main">
+  <h3>Select a customer</h3>
+  <div class="customers-db">
+    {% for data in datas%}
+    <div class="customer">
+      <a href="{% url 'customer' data.first_name %}" class="profilepic">J</a>
+      <div class="dbname">
+        <strong>Name: </strong>{{data.first_name}} {{data.last_name}}
+      </div>
+      <div><strong>Current Balance: </strong>Rs. {{data.account_balance}}</div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+<script src="/static/js/customers.js"></script>
+{% endblock content %}

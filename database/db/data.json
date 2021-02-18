@@ -1,0 +1,13 @@
+{"_id":{"$oid":"601bedc2b42bb931e7ef7dd0"},"first_name":"Sameera","last_name":"Mannan","gender":"female","age":28.0,"account_balance":40000.0}
+{"_id":{"$oid":"601bedc2b42bb931e7ef7dd1"},"first_name":"Anil","last_name":"Munshi","gender":"male","age":23.0,"account_balance":24999.0}
+{"_id":{"$oid":"601bef04b42bb931e7ef7dd2"},"first_name":"Meghana","last_name":"Hemendra","gender":"female","age":36.0,"account_balance":38999.0}
+{"_id":{"$oid":"601bef04b42bb931e7ef7dd3"},"first_name":"Manpreet","last_name":"Bumb","gender":"male","age":56.0,"account_balance":190976.0}
+{"_id":{"$oid":"601bef04b42bb931e7ef7dd4"},"first_name":"Pranab","last_name":"Sawant","gender":"male","age":35.0,"account_balance":50985.0}
+{"_id":{"$oid":"601befb4b42bb931e7ef7dd5"},"first_name":"Biren","last_name":"Rout","gender":"male","age":30.0,"account_balance":38267.0}
+{"_id":{"$oid":"601befb4b42bb931e7ef7dd6"},"first_name":"Dipti","last_name":"Mohan","gender":"female","age":26.0,"account_balance":48909.0}
+{"_id":{"$oid":"601befb4b42bb931e7ef7dd7"},"first_name":"Madhavi","last_name":"Kakar","gender":"female","age":32.0,"account_balance":78993.0}
+{"_id":{"$oid":"601bf0a5b42bb931e7ef7dd8"},"first_name":"Harrison","last_name":"Leffer","gender":"male","age":49.0,"account_balance":36206.0}
+{"_id":{"$oid":"601bf0a5b42bb931e7ef7dd9"},"first_name":"Nels","last_name":"Dickens","gender":"male","age":26.0,"account_balance":56783.0}
+{"_id":{"$oid":"601bf0a5b42bb931e7ef7dda"},"first_name":"Jane","last_name":"Jacobson","gender":"female","age":30.0,"account_balance":78822.0}
+{"_id":{"$oid":"601c14869e1f0762418cd03d"},"first_name":"Hari","last_name":"Wason","gender":"male","age":66,"account_balance":32569}
+{"_id":{"$oid":"601c14869e1f0762418cd03e"},"first_name":"Sneha","last_name":"Sachdeva","gender":"female","age":23,"account_balance":66999}

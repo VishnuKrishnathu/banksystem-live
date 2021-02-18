@@ -1,0 +1,22 @@
+{% extends 'index.html'%} {% block content %}
+<main class="details-page">
+  <div id="scaledpic">V</div>
+  <div id="details">
+    {% for i in data %}
+    <strong id="name">First Name : {{i.first_name}}</strong>
+    <strong>Last Name : {{i.last_name}}</strong>
+    <strong>Age : {{i.age}}</strong>
+    <strong>Current Balance : Rs {{i.account_balance}}</strong>
+  </div>
+</main>
+<form action="{% url 'paymentdone' i.first_name %}" method="post">
+  {% csrf_token %}
+  <label for="amount" id="payamount">Payment Amount : Rs </label>
+  <input type="text" id="amount" required autocomplete="off" name="amount" />
+  <input type="submit" value="Make Payment" id="submit-butt" />
+</form>
+{% if error %}
+<section id="error">Minimum Transfer Amount is Rs 50</section>
+{% endif %} {% endfor %}
+<script src="/static/js/details.js"></script>
+{% endblock %}
