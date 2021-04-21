@@ -80,9 +80,9 @@ DATABASES = {
 "default": {
     "ENGINE": "djongo",
     "CLIENT": {
-        "host": "mongodb+srv://vishnu:YHwvgPjn7XfDLxJL@cluster0.ragko.mongodb.net/mycustomers?retryWrites=true&w=majority",
+        "host": "mongodb+srv://vishnu:5aZboL5U4lo7isIT@cluster0.ragko.mongodb.net/mycustomers?retryWrites=true&w=majority",
         "username": "vishnu",
-        "password": "YHwvgPjn7XfDLxJL",
+        "password": "5aZboL5U4lo7isIT",
         "name": "mycustomers",
     },
 }}
