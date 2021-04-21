@@ -39,6 +39,6 @@ def paymentdone(request, first_name):
 
 
 
-client = pymongo.MongoClient("mongodb+srv://vishnu:YHwvgPjn7XfDLxJL@cluster0.ragko.mongodb.net/mycustomers?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://vishnu:5aZboL5U4lo7isIT@cluster0.ragko.mongodb.net/mycustomers?retryWrites=true&w=majority")
 db = client["mycustomers"]
 collection = db["customers_data"]
